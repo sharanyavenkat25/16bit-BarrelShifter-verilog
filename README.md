@@ -11,6 +11,18 @@ The aim was to implement a 16-bit Barrel shifter along with the following operai
 * Subtraction
 * SLT operation
 
+### Prerequisites
+
+you will need iverilog installed in your system
+
+```
+sudo apt install iverilog
+```
+to visualise the waveform, you will need gtkwave
+```
+sudo apt install gtkwave
+```
+
 ## Design and Simulation
 commands to simulate
 ```
