@@ -11,4 +11,18 @@ The aim was to implement a 16-bit Barrel shifter along with the following operai
 * Subtraction
 * SLT operation
 
+## Design and Simulation
+commands to simulate
+```
+iverilog -o tb_barrel lib.v barrel16.v barrel16_tb.v
+vvp tb_barrel
+```
+followed by waveform observation with the command:
+```
+gtkwave tb_barrel.vcd
+```
+
+
+
+
 
